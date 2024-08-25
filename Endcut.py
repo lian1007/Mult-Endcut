@@ -94,6 +94,8 @@ root = TkinterDnD.Tk()
 root.geometry("280x200+200+200")
 root.title("影片尾卡擷取器")
 
+root.wm_iconbitmap("Mult-Endcut/Assets/image.ico")
+
 # 使用 CustomTkinter 的 CTk 設置背景顏色
 frame = ctk.CTkFrame(root, fg_color="#FF8AEB")  # 設置整個窗口背景顏色
 frame.pack(fill="both", expand=True)
